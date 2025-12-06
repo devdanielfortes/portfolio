@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional 3D</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-theme="dark">
+
+    <div class="theme-switch" onclick="toggleTheme()">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+
+    <canvas id="particles"></canvas>
+
+    <nav>
+        <div class="logo">DANIEL FORTES</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#courses">Cursos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="visible">
+        <div class="glass-card tilt-element">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h3>Bem-vindo, eu sou</h3>
+                    <h1>Desenvolvedor <span id="typewriter">Front-End</span></h1>
+                    <p>Daniel Fortes, Sou especialista em criar soluções digitais que unem design impactante e funcionalidade robusta. Transformo ideias em realidade.</p>
+                    <a href="#projects" class="btn">Ver Projetos</a>
+                </div>
+                <div class="profile-wrapper">
+                    <div class="circle-bg"></div>
+                    <img src="src/img/daniel-fortes.jpeg" alt="Daniel Fortes" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Minhas Habilidades</h2>
+        <div class="glass-card" style="width: 100%;">
+            <div class="skills-grid">
+                
+                <div class="skills-col">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML5 & CSS3</span><span>95%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript (ES6+)</span><span>40%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="40%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>React.js</span><span>15%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="15%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skills-col">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Node.js</span><span>30%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="30%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>UI/UX Design</span><span>60%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="60%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Git & GitHub</span><span>95%</span></div>
+                        <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Projetos Principais</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/danfor-store.png" alt="DanFor Store">
+                </div>
+                <div class="project-info">
+                    <h3>DanFor Store</h3>
+                    <p>Simulação de uma Loja de Produtos eletrônicos Reais.</p>
+                    <a href="https://devdanielfortes.github.io/danfor-store/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/dan-gerador.png" alt="Gerador de Cores através de imagem">
+                </div>
+                <div class="project-info">
+                    <h3>DAN GERADOR</h3>
+                    <p>Gerador de Cores Hexadecimais através de Imagens.</p>
+                    <a href="https://devdanielfortes.github.io/dan-gerador/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/copia-microsoft.png" alt="Copia da Microsoft">
+                </div>
+                <div class="project-info">
+                    <h3>Cópia Microsoft</h3>
+                    <p>Cópia do site da Microsoft.</p>
+                    <a href="https://devdanielfortes.github.io/copia-microsoft/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/login-cadastro.png" alt="Tela de Login - Cadastro">
+                </div>
+                <div class="project-info">
+                    <h3>Tela de Login - Cadastro</h3>
+                    <p>Tela de Login - Cadastro com design Tecnológico/Inovador.</p>
+                    <a href="https://devdanielfortes.github.io/login-cadastro-futurista/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/calculadora-imc.png" alt="Calculadora de IMC">
+                </div>
+                <div class="project-info">
+                    <h3>Calculadora de IMC</h3>
+                    <p>Calculadora de IMC, Utiliza como medidas "Peso e Altura".</p>
+                    <a href="https://devdanielfortes.github.io/calculadora-imc/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/formulario-contato.png" alt="Formulário de Contato">
+                </div>
+                <div class="project-info">
+                    <h3>Formulário de Contato</h3>
+                    <p>Formulário de Contato em HTML, CSS, JavaScript.</p>
+                    <a href="https://devdanielfortes.github.io/formulario-dark/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/skeleton-loading.png" alt="Skeleton Loading">
+                </div>
+                <div class="project-info">
+                    <h3>Skeleton Loading</h3>
+                    <p>Projeto usando habilidades em JS, animações.</p>
+                    <a href="https://devdanielfortes.github.io/loading-skeleton/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="src/img/catalogo-html.png" alt="Catálogo das TAGS HTML">
+                </div>
+                <div class="project-info">
+                    <h3>Catálogo das TAGS HTML</h3>
+                    <p>A maioria das TAGS de HTML estão neste site, o intuito é utilizar para estudos.</p>
+                    <a href="https://devdanielfortes.github.io/tags-html/" target="_blank" style="color:var(--primary); text-decoration: none;">Ver Detalhes &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2 class="section-title">Formação e Cursos</h2>
+        <div class="glass-card" style="width: 100%; max-width: 900px;">
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Remoto</div>
+                    <div class="timeline-content">
+                        <h3>DEVstart - Front-End</h3>
+                        <p>LAB 365 - Senai/SC - 300h de conteúdo sobre Lógica de Programação, HTML - CSS - JavaScript, React.js</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Remoto</div>
+                    <div class="timeline-content">
+                        <h3>HTML & CSS</h3>
+                        <p>Curso em Video - 40h de conteúdo sobre HTML - CSS.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Remoto</div>
+                    <div class="timeline-content">
+                        <h3>Git & GitHub</h3>
+                        <p>Curso em Video - 40h conteúdo - Entendendo Git & Github, desenvolvendo projetos e hospedando na plataforma.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="glass-card tilt-element contact-wrapper">
+            <h2 class="section-title" style="margin-bottom: 30px;">Fale Comigo</h2>
+            
+            <form id="contactForm" action="https://formspree.io/f/xldonpzd"> 
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="_replyto" class="form-control" placeholder="Seu E-mail" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Enviar Agora</button>
+            </form>
+
+            <div class="social-icons">
+                <a href="https://github.com" class="social-btn"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" class="social-btn"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" class="social-btn"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="successPopup" class="popup">
+        E-mail enviado com sucesso! ✨
+    </div>
+
+    <footer style="text-align: center; padding: 20px; color: var(--text-muted); font-size: 0.9rem;">
+        &copy; 2025. Desenvolvido com Paixão e Código - Daniel Fortes.
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
