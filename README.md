@@ -1,10 +1,4 @@
-## 🛍️ DanFor Store
-
-### Produtos
-
-Este projeto é uma **Landing Page moderna e responsiva** criada para apresentar uma experiência visual imersiva e focada na conversão. O design utiliza um fundo escuro (Dark Mode) com contrastes vibrantes para destacar os produtos.
-
-
+## 🛍️ Portfólio
 
 ### ✨ Tecnologias Utilizadas
 
@@ -22,8 +16,8 @@ Aqui estão os links diretos para você acessar a versão funcional do projeto e
 
 | Link | Ação | Botão |
 | :--- | :--- | :--- |
-| **Página em Produção** | Veja a landing page rodando ao vivo! | [![Live Demo](https://img.shields.io/badge/VISITAR-PÁGINA-4B0082?style=for-the-badge&logoColor=white)](https://devdanielfortes.github.io/danfor-store/) |
-| **Código Fonte** | Acesse os arquivos e contribua. | [![GitHub Repo](https://img.shields.io/badge/CÓDIGO-FONTE-101010?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdanielfortes/danfor-store) |
+| **Página em Produção** | Veja a landing page rodando ao vivo! | [![Live Demo](https://img.shields.io/badge/VISITAR-PÁGINA-4B0082?style=for-the-badge&logoColor=white)](https://devdanielfortes.github.io/portfolio/) |
+| **Código Fonte** | Acesse os arquivos e contribua. | [![GitHub Repo](https://img.shields.io/badge/CÓDIGO-FONTE-101010?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdanielfortes/portfolio) |
 
 ---
 
